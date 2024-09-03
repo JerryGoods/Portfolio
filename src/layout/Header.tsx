@@ -36,7 +36,7 @@ export default function Header() {
                         offset={-70}
                         className={'dark:text-white cursor-pointer'}
                     >
-                        CrlJhnMngs
+                        JrryBlldsJr
                     </Link>
                 </div>
                 <div className="nav:flex gap-4 mt-1 ">

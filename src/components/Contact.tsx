@@ -114,7 +114,7 @@ export default function Contact() {
                             </div>
                             <div className="flex justify-between mt-2 flex-col sm:flex-row">
                                 <div className="underline text-black dark:text-white">
-                                    <a href="mailto:manigoscarljohn@gmail.com">
+                                    <a href="mailto:alokaba1020@gmail.com">
                                         Send me email directly
                                     </a>
                                 </div>
@@ -141,7 +141,7 @@ export default function Contact() {
                                 Email
                             </p>
                             <p className="mt-2 font-semibold text-blue-700 dark:text-blue-500 uppercase">
-                                manigoscarljohn@gmail.com
+                                alokaba1020@gmail.com
                             </p>
                         </div>
                         <div className="flex flex-col mt-10">
@@ -149,7 +149,7 @@ export default function Contact() {
                                 Address
                             </p>
                             <p className="mt-2 font-semibold text-blue-700 dark:text-blue-500 uppercase">
-                                Cebu City <br></br> Philippines
+                                House 62 Bagumbayan Street Isabela <br></br>Negros Occidental Philippines
                             </p>
                         </div>
                         <div className="flex flex-col mt-11">

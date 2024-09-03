@@ -1,12 +1,12 @@
 import React from 'react';
-import Me from '../assets/images/me.png';
+import Me from '../assets/images/me.jpg';
 import moment from 'moment';
 import { SlideLeft, SlideRight } from '../animation/Slide';
 import { Popup } from '../animation/Popup';
 
 export default function About() {
-    const age = moment().diff('2000-01-03', 'years');
-    const yearsOfExperience = moment().diff('2022-10-10', 'years', true);
+    const age = moment().diff('1998-10-25', 'years');
+    const yearsOfExperience = moment().diff('2022-07-12', 'years', true);
     let experience = '';
     if (yearsOfExperience % 1 >= 0.6) {
         experience = ` with nearly ${
@@ -46,7 +46,7 @@ export default function About() {
                     delay={0.5}
                 >
                     <p className="text-black text-base dark:text-white text-justify pb-6 leading-relaxed">
-                        Hello there! I'm Carl, a {age}-year-old Front-End /
+                        Hello there! I'm Jerry, a {age}-year-old Front-End /
                         Full-Stack Developer based in Cebu, Philippines,
                         {experience}. <br></br> My journey with computers
                         started early in life, sparking a passion that has only

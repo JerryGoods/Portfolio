@@ -21,7 +21,7 @@ export default function Home() {
             >
                 <div>
                     <p className="font-bold home:text-5xl sm:text-4xl text-3xl text-black dark:text-white sm:dark:text-white">
-                        Hi, I am Carl
+                        Hi, I am Jerry
                     </p>
                 </div>
                 <div className="mt-1">
@@ -39,8 +39,8 @@ export default function Home() {
                 </div>
                 <div className="mt-6 w-full sm:w-1/2  home:w-[80%]">
                     <p className="font-light home:text-lg sm:text:base text-sm text-start sm:text-center home:text-start dark:sm:text-white dark:text-white">
-                        I am a Front-End / Full-Stack Developer. I am currently
-                        working at Alliance Software Incorporated as a Software
+                        I am a Front-End / Full-Stack Developer. I was working
+						at Alliance Software Incorporated as a Software
                         Engineer.
                     </p>
                 </div>
