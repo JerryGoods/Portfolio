@@ -24,6 +24,9 @@ export const Education = () => {
                         <time className="block mb-3 text-sm font-normal leading-none text-gray-700 dark:text-gray-400">
                             {e.track}
                         </time>
+					   <time className="block mb-3 text-sm font-normal leading-none text-gray-700 dark:text-gray-400">
+                            {e.awards}
+                        </time>
                         <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
                             {e.course}
                         </p>

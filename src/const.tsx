@@ -1,8 +1,7 @@
-import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram} from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import LogoAlliance from './assets/images/Alliance.webp';
-import LogoMVP from './assets/images/mvp.webp';
-import UC from './assets/images/UC.png';
+import LCC from './assets/images/LCC.jpg';
 import portfolio from './assets/images/portfolio.png';
 import dota2 from './assets/images/dota2.png';
 import advanceCalulator from './assets/images/advance-calculator.png';
@@ -140,28 +139,23 @@ export const skills = [
 export const socials = [
     {
         name: 'github',
-        link: 'https://github.com/crljhnmngs',
+        link: 'https://github.com/JerryGoods',
         icon: <FaGithub className={iconStyleClass} />,
     },
     {
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/crljhnmngs/',
+        link: 'https://www.linkedin.com/in/balladosjerryjr/',
         icon: <FaLinkedin className={iconStyleClass} />,
     },
     {
         name: 'facebook',
-        link: 'https://www.facebook.com/crljhnmngs',
+        link: 'https://www.facebook.com/jerry.lmao/',
         icon: <FaFacebook className={iconStyleClass} />,
     },
     {
         name: 'instagram',
-        link: 'https://instagram.com/crljhnmngs',
+        link: 'https://www.instagram.com/booldtespayb/',
         icon: <FaInstagram className={iconStyleClass} />,
-    },
-    {
-        name: 'twitter',
-        link: 'https://twitter.com/crljhnmngs',
-        icon: <FaSquareXTwitter className={iconStyleClass} />,
     },
 ];
 
@@ -184,125 +178,44 @@ export const experiences = [
             'Waterfall',
         ],
 
-        date: 'October 2022 - Present',
+        date: 'July 2022 - August 2024',
         subItems: [
-            {
-                position: 'Associate Technical Specialist I',
-                setup: 'On-site',
-                projects: [
-                    {
-                        description:
-                            "Developing a web UI cardless cash withdrawal and cash deposit transactions for our Japanese client's ATMs here in the Philippines. The user can use a QR code, fingerprint, or face recognition to do cash withdrawals and deposits. Bank: BDO",
-                        tech: [
-                            'C++',
-                            'VBScript',
-                            'JavaScript',
-                            'HTML',
-                            'CSS',
-                            'C#',
-                            'Git',
-                            'SVN',
-                            'Waterfall',
-                        ],
-                    },
-                ],
-                date: 'July 2024 - Present',
-            },
-            {
-                position: 'Technical Specialist II',
-                setup: 'On-site',
-                projects: [
-                    {
-                        description: `Developed a web UI cardless cheque deposit transaction for our Japanese client's ATMs here in the Philippines. Bank: BDO`,
-                        tech: [
-                            'C++',
-                            'VBScript',
-                            'JavaScript',
-                            'HTML',
-                            'CSS',
-                            'C#',
-                            'Git',
-                            'SVN',
-                            'Waterfall',
-                        ],
-                    },
-                ],
-                date: 'January 2024 - July 2024',
-            },
             {
                 position: 'Technical Specialist I',
                 setup: 'On-site',
-                projects: [
+                projects: [ 	
                     {
-                        description:
-                            'Developed a full-stack web application for one of our clients in the Philippines.',
-                        tech: [
-                            'React',
-                            'TypeScript',
-                            'MobX',
-                            'Material UI',
-                            'ASP.net Core',
-                            'Git',
-                        ],
-                    },
-                    {
-                        description:
-                            'Developed a demo ATM web service for our Japanese client to showcase their new ATM application to their clients.',
-                        tech: ['JavaScript', 'HTML', 'Bootstrap + Sass', 'C#'],
-                    },
-                    {
-                        description: `I was assigned to provide bank support for our Japanese client's ATMs here in the Philippines. My tasks include fixing bugs in their legacy base code and developing new functionalities based on specific bank requests. Banks: BDO, MBTC, and EWB`,
-                        tech: ['C++', 'VBScript', 'Git', 'SVN', 'Waterfall'],
+                        description: `I was assigned to provide bank support for our Japanese client's ATMs here in the Philippines. My tasks include fixing bugs in their legacy base code and developing new functionalities based on specific bank requests. Banks: BDO, MBTC, EWB, and PNB. Also to create reports, documents, test cases, and task estimatition to check the progress and update by our japanese clients`,
+                        tech: ['C++', 'HTML', 'CSS', 'VBScript', 'Git', 'SVN', 'Waterfall'],
                     },
                 ],
                 date: 'October 2022 - January 2024',
             },
         ],
     },
-    {
-        logo: LogoMVP,
-        title: 'MVP.dev',
-        role: 'Software QA (Intern)',
-        link: 'https://mvp.dev/',
-        description:
-            'Software QA Intern at MVP.dev, MVP.dev help business owners harness the power of no-code technology to bring their vision to life in weeks through a high-touch proven process.',
-        tech: [
-            'Test Plan',
-            'Test Cases',
-            'Integration tests',
-            'Functional tests',
-        ],
-        date: 'March 2022 - June 2022',
-    },
 ];
 
 export const educations = [
     {
-        logo: UC,
-        school: 'University Of Cebu - Lapu-Lapu and Mandaue',
+        logo: LCC,
+        school: 'La Consolacion College - Isabela',
         track: 'College',
+		awards: 'Best Programmer Award & Best Capstone Award',
         course: 'Bachelor of Science in Information Technology',
         tech: [
+			'C',
             'C++',
             'Java',
-            'C#',
-            'Spring Boot',
-            'J2EE',
-            'NodeJS',
-            'Python',
+			'HTML',
+			'CSS',
+			'Laravel',
+			'WampServer',
             'MySQL',
             'PHP',
             'Agile',
+			'Kotlin',
         ],
-        date: 'June 2018 - July 2022',
-    },
-    {
-        logo: UC,
-        school: 'University Of Cebu - Lapu-Lapu and Mandaue',
-        track: 'Senior High School',
-        course: 'TECH-VOC ICT - Computer Programming & Hardware Servicing ',
-        tech: ['Java', 'C#'],
-        date: 'June 2016 - April 2018',
+        date: 'June 2018 - May 2022',
     },
 ];
 export const projects = [
@@ -320,94 +233,6 @@ export const projects = [
         date: '2024',
         links: {
             github: 'https://github.com/crljhnmngs/Portfolio',
-            live: '',
-        },
-    },
-    {
-        name: 'Fake Store',
-        image: fakeStore,
-        about: 'The Fake Store project is a hands-on application developed to practice and showcase skills in integrating and working with APIs. This project simulates an e-commerce platform, leveraging a mock API to deliver a realistic shopping experience while focusing on effective API usage and data handling.',
-        tech: ['HTML', 'SCSS', 'JavaScript', 'Responsive'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/Fake-Store',
-            live: 'https://fake-store-blond.vercel.app/',
-        },
-    },
-    {
-        name: 'DOTA2 Heroes',
-        image: dota2,
-        about: 'The Dota 2 Heroes Project is a web application developed to explore and showcase data from the popular game Dota 2. Created out of my passion for the game and a desire to practice API integration, this project provides a detailed and interactive interface for browsing and learning about Dota 2 heroes.',
-        tech: ['HTML', 'Tailwind', 'JavaScript', 'Responsive'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/DOTA2-Heroes',
-            live: 'https://crljhnmngs.github.io/DOTA2-Heroes/',
-        },
-    },
-    {
-        name: 'Welift',
-        image: WeLift,
-        about: 'WeLift is a comprehensive web application developed as our capstone project during my final year of college. The platform is designed to simplify the process of booking moving services, specifically tailored for individuals and families needing assistance with relocations, also known as "lipat bahay." WeLift connects users with reliable moving service providers, streamlining the logistics of moving household items.',
-        tech: ['PHP', 'MySQL', 'jQuery', 'JavaScript'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/CAPSTONE-PROJECT',
-            live: '',
-        },
-    },
-    {
-        name: 'Overflow',
-        image: OverFlow,
-        about: 'Overflow is a feature-rich note-taking application developed as a capstone project by my friend, with significant contributions from me. Designed to provide an efficient and user-friendly platform for managing personal notes, Overflow enhances productivity through its intuitive interface and robust functionality.',
-        tech: ['PHP', 'MySQL', 'jQuery', 'JavaScript'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/LMNTRIXXXX/Capstone',
-            live: '',
-        },
-    },
-    {
-        name: 'Advance Calculator',
-        image: advanceCalulator,
-        about: 'The Advanced Calculator is a web-based application developed to practice and refine my JavaScript skills. This tool offers a variety of advanced mathematical functions, showcasing my ability to implement complex calculations and create an interactive user interface using JavaScript.',
-        tech: ['HTML', 'CSS', 'JavaScript'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/Advance-Calculator',
-            live: 'https://advance-calculator-three.vercel.app/',
-        },
-    },
-    {
-        name: 'Basic Calculator',
-        image: calulator,
-        about: 'The Basic Calculator is a simple web application developed as an initial project while I was learning JavaScript. This project serves as a foundational exercise in applying JavaScript to create a functional calculator with essential arithmetic operations.',
-        tech: ['HTML', 'CSS', 'JavaScript'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/Calculator',
-            live: 'https://calculator-kohl-xi-82.vercel.app/',
-        },
-    },
-    {
-        name: 'Facebook Clone(Design)',
-        image: facebook,
-        about: `The Facebook Clone is a web application developed to replicate the design and user interface of Facebook. This project focuses on creating a visually accurate and interactive clone of Facebook's design, providing an opportunity to practice front-end development skills and understand complex UI/UX elements.`,
-        tech: ['HTML', 'CSS'],
-        date: '2022',
-        links: {
-            github: 'https://github.com/crljhnmngs/Facebook-Clone',
-            live: 'https://facebook-clone-chi-orcin.vercel.app/',
-        },
-    },
-    {
-        name: ' Amusement Park Management System',
-        image: Amusement,
-        about: 'The Amusement Park Management System is a Windows Forms application developed as a final project during my second year of college. This system is designed to streamline and manage various operations within an amusement park, including ticket sales, ride management, and customer services. It was selected as one of the best projects, showcasing its effectiveness and impact.',
-        tech: ['C#', 'Windows Forms'],
-        date: '2019',
-        links: {
-            github: 'https://github.com/crljhnmngs/Amusement-Park-Management-System',
             live: '',
         },
     },
